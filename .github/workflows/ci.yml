@@ -22,4 +22,4 @@ jobs:
 
     - name: Run unit tests
       run: |
-        pytest -m .venv/3d_vector_test.py discover
+        python -m unittest discover
